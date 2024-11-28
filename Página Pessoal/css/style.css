@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://img.freepik.com/psd-gratuitas/quadro-abstrato-de-folhas-verdes-com-espaco-de-copia_24972-1953.jpg?t=st=1730846903~exp=1730850503~hmac=39d70f26ede76079a9192f445fa8f9a7490d73fea3d6e359d48141678b767be8&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f1e9e9; /* Define uma cor de texto padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    backdrop-filter: brightness(0.9);
+}
+
+section {
+    padding: 30px 0;
+    color: #f1e9e9;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    color: #023309;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
